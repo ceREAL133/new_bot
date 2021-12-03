@@ -2,7 +2,7 @@ let productsList = [];
 const { Telegraf } = require('telegraf');
 require('dotenv').config();
 
-const bot = new Telegraf(process.env.BOT_TOKEN, {webhook: {port: process.env.port}});
+const bot = new Telegraf(process.env.BOT_TOKEN, {webhook: {port: process.env.PORT}});
 
 bot.command('start', ctx => {
     console.log(`username: ${ctx.from.username}`);
