@@ -80,4 +80,4 @@ bot.action('enough', async (ctx)=>{
 })
 
 bot.launch();
-bot.startWebhook(`/bot${BOT_TOKEN}`, null, process.env.PORT)
+// bot.startWebhook(`/bot${BOT_TOKEN}`, null, process.env.PORT)
